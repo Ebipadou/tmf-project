@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="../Styles/signup page.css">
+  <script defer src="../Scripts/signup.js"></script>
+</head>
+<body>
+  <div class="form-container">
+    <div class="form-image">
+      <img src="../trueAssets/53819-removebg-preview.png" alt="" id="fitmap">
+    </div>
+
+    <form action="/" id="form">
+      <div class="form-header">
+        <p class="form-header-text">Welcome to FItMap</p>
+        <p class="form-text">SIGN UP</p>
+      </div>
+
+      <div class="form-data">
+        <label for="fullnames">Full Names</label>
+        <input type="text" class="input-field" id="fullnames" placeholder="Fortune Chinda">
+        <span class="errors" id="name-error"></span>
+      </div>
+
+      <div class="form-data">
+        <label for="email-address">Email Address</label>
+        <input type="text" class="input-field" id="email-address" placeholder="gerachblings@gmail.com">
+        <span class="errors" id="email-error"></span>
+      </div>
+
+      <div class="form-data" id="password-container">
+        <label for="password">Password</label>
+        <input type="password" class="input-field" id="password" placeholder="**************">
+        <img src="../trueAssets/privacy icon.png" alt="privacy" id="show-password-icon">
+        <span class="errors" id="password-error"></span>
+      </div>
+
+      <div class="signup-btn">
+        <button type="submit" class="sign-up">Sign Up</button>
+      </div>
+
+      <div class="already-have-an-acc"><p>Already  have an account? <span><a href="./signin.html" target="_parent">Sign In</a></span></p>
+      </div>
+
+      <div class="terms-section">
+        <input type="checkbox" name="check" id="checkbox"> I agree to the <span><a href="#">Terms</a></span> and <span><a href="#">Privacy Policy</a></span>
+        <span class="errors" id="check-error"></span>
+      </div>
+
+      <div class="form-data">
+        <p>Or</p>
+      </div>
+
+      <div class="sign-up-with">
+        <div class="links"><img src="../trueAssets/google.png" alt="google-logo" id="google"><a href="#" class="suw-btn">Sign up account With Google</a></div>
+        <div class="links"><img src="../trueAssets/apple logo.png" alt="apple logo" id="apple-logo"><a href="#" class="suw-btn" id="apple">Sign up account with apple</a></div>
+      </div>
+    </form>
+
+    <div class="modal-container">
+      <p>Sign Up Successful!</p>
+    </div>
+  </div>
+
+</body>
+</html>

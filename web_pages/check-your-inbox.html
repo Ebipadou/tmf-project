@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Your Inbox</title>
+  <link rel="stylesheet" href="../Styles/check your inbox.css">
+  <script defer src="../Scripts/check inbox.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="top-section"></div>
+
+    <div class="bottom-section">
+      
+      <div class="text-content">
+        <h3>Reset Your Password</h3>
+        <p>Please enter your email address to get a password reset code</p>
+      </div>
+
+      <div class="email-container">
+        <label for="code"></label>
+        <input class="verify-code" type="text" name="code" id="codeNumber1">
+        <input class="verify-code" type="text" name="code" id="codeNumber2">
+        <input class="verify-code" type="text" name="code" id="codeNumber3">
+        <input class="verify-code" type="text" name="code" id="codeNumber4">
+        <input class="verify-code" type="text" name="code" id="codeNumber5">
+      </div>
+
+      <div class="show-modal"></div>
+
+      <div class="another-text-content">
+        <p class="verify-code-text active">You can resend the code in <span id="count">60</span> seconds</p>
+        <p class="resend-code-text">Click the button to generate a new code</p>
+      </div>
+
+      <div class="verify-container">
+        <!-- <a href="./create new password.html" id="verify">Verify Code</a> -->
+         <button type="submit" class="verify" id="verify-btn">Verify Code</button>
+         <button type="submit" class="verify " id="new-code-btn">Send New Code</button>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="../Styles/sign in.css">
+  <script defer src="../Scripts/signin.js"></script>
+</head>
+<body>
+  <div class="form-container">
+    <div class="form-image">
+      <img src="../trueAssets/sign in logo.jpg" alt="fitmap logo" id="fitmap">
+    </div>
+
+    <form action="/" id="form">
+      <div class="form-header">
+
+
+        <p class="form-text">Sign in your Account</p>
+      </div>
+
+      <div class="form-data">
+        <label for="email-address">Enter Email</label>
+        <input type="text" class="input-field" id="email-address" placeholder="gerachblings@gmail.com">
+        <span class="errors" id="email-error"></span>
+      </div>
+
+      <div class="form-data">
+        <label for="password">Enter Password</label>
+        <input type="password" class="input-field" id="password" placeholder="**************">
+        <span class="errors" id="password-error"></span>
+      </div>
+
+      <div class="form-data-reset">
+        <div><a href="./reset password.html">Forgot Password?</a></div>
+
+        <div class="remember-me"> <input type="checkbox" name="check" id="check">Remember Me</div>
+      </div>
+
+      <div class="signup-btn">
+        <button class="sign-in" type="submit">Log In</button>
+      </div>
+
+      <div class="form-data">
+        <p>Or</p>
+      </div>
+
+      <div class="sign-up-with">
+        <div class="links"><img src="../trueAssets/google.png" alt="google-logo" id="google"><a href="#" class="suw-btn" id="google-link">Continue with Google</a></div>
+        <div class="links"><img src="../trueAssets/apple logo.png" alt="apple logo" id="apple-logo"><a href="#" class="suw-btn" id="apple">Continue with apple</a></div>
+      </div>
+    </form>
+
+    <div class="modal-container">
+      <p>Login Successful!</p>
+    </div>
+  </div>
+
+</body>
+</html>
