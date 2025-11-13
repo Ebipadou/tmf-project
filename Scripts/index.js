@@ -18,7 +18,7 @@ setTimeout(() => {
   fullScreenImage.classList.remove('active');
 
   mainContentFunction();
-}, 3000)
+}, 2000)
 
 function mainContentFunction() {
   mainContentContainer.classList.add('active');
