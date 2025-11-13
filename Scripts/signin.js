@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) => {
   if (authenticateForm()) {
     modal.style.display = 'flex';
     setTimeout(() => {
-      window.location.href = '../web_pages/homepage.html'}, 3000);
+      window.location.href = '/homepage.html'}, 3000);
       emailAddress.value = '';
       password.value = '';
   }

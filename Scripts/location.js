@@ -5,15 +5,15 @@ const profile = document.getElementById('profile');
 const searchExit = document.getElementById('search-cancel-icon');
 const searchBar = document.getElementById('searchToggled');
 
-home.addEventListener('click', () => {window.location.href = '../web_pages/homepage.html'});
+home.addEventListener('click', () => {window.location.href = '/homepage.html'});
 
 tools.addEventListener('click', () => {
-  window.location.href = '../web_pages/tools.html';
+  window.location.href = '/tools.html';
 });
 
-locationIcon.addEventListener('click', () => {window.location.href = '../web_pages/location.html'});
+locationIcon.addEventListener('click', () => {window.location.href = '/location.html'});
 
-profile.addEventListener('click', () => {window.location.href = '../web_pages/profile.html';});
+profile.addEventListener('click', () => {window.location.href = '/profile.html';});
 
 searchExit.addEventListener('click', () => {
   let searchContent = searchBar.value.trim();

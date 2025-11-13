@@ -8,7 +8,7 @@ const locationIcon = document.getElementById('location');
 const profile = document.getElementById('profile');
 
 backArrow.addEventListener('click', () => {
-  window.location.href = '../web_pages/homepage.html';
+  window.location.href = '../homepage.html';
 });
 
 editIcon.addEventListener('click', () => {
@@ -17,15 +17,15 @@ editIcon.addEventListener('click', () => {
 
 logOut.addEventListener('click', () => {
   alert('Log Out Successfull!');
-  window.location.href = '../web_pages/signin.html';
+  window.location.href = '../signin.html';
 });
 
-home.addEventListener('click', () => {window.location.href = '../web_pages/homepage.html'});
+home.addEventListener('click', () => {window.location.href = '../homepage.html'});
 
 tools.addEventListener('click', () => {
-  window.location.href = '../web_pages/tools.html';
+  window.location.href = '../tools.html';
 });
 
-locationIcon.addEventListener('click', () => {window.location.href = '../web_pages/location.html'});
+locationIcon.addEventListener('click', () => {window.location.href = '../location.html'});
 
 profile.addEventListener('click', () => {window.location.href = '#';});

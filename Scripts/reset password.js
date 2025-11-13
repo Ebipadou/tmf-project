@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
     modal.classList.add('active');
     setTimeout(() => {
       modal.classList.remove('active');
-      window.location.href = '../web_pages/check-your-inbox.html';
+      window.location.href = '/check-your-inbox.html';
     }, 2000);
   }
 });

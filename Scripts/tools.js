@@ -25,13 +25,13 @@ contentBox4.addEventListener('click', () => {
   window.location.href = '';
 })
 
-home.addEventListener('click', () => {window.location.href = '../web_pages/homepage.html'});
+home.addEventListener('click', () => {window.location.href = '/homepage.html'});
 
 tools.addEventListener('click', () => {
   window.location.href = '#';
 });
 
-locationIcon.addEventListener('click', () => {window.location.href = '../web_pages/location.html'});
+locationIcon.addEventListener('click', () => {window.location.href = '/location.html'});
 
-profile.addEventListener('click', () => {window.location.href = '../web_pages/profile.html';});
+profile.addEventListener('click', () => {window.location.href = '/profile.html';});
 

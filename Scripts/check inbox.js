@@ -41,7 +41,7 @@ verifyBtn.addEventListener('click', () => {
     showModal.classList.add('active');
     setTimeout(() => {
       showModal.classList.remove('active');
-      window.location.href = '../web_pages/create new password.html';
+      window.location.href = '/create new password.html';
     }, 2000)
   } else {
     showModal.innerHTML = `<p>Incorrect Verification Code</p>`;

@@ -10,7 +10,7 @@ const searchExit = document.getElementById('search-cancel-icon');
 const profileImg = document.getElementById('profile-img');
 
 profileImg.addEventListener('click', () => {
-  window.location.href = '../web_pages/profile.html';
+  window.location.href = '/profile.html';
 });
 
 searchBar.addEventListener('click', () => {
@@ -29,10 +29,10 @@ mainConSearchIcon.addEventListener('click', () => {
 
 home.addEventListener('click', () => {window.location.href = '#'});
 tools.addEventListener('click', () => {
-  window.location.href = '../web_pages/tools.html';
+  window.location.href = '/tools.html';
 });
-locationIcon.addEventListener('click', () => {window.location.href = '../web_pages/location.html'});
-profile.addEventListener('click', () => {window.location.href = '../web_pages/profile.html';});
+locationIcon.addEventListener('click', () => {window.location.href = '/location.html'});
+profile.addEventListener('click', () => {window.location.href = '/profile.html';});
 
 searchExit.addEventListener('click', () => {
   mainContentContainer.classList.add('active');

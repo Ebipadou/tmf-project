@@ -62,7 +62,7 @@ function validateForm() {
     console.log(`New Password: ${userJSONData.password}`);
     localStorage.setItem('userBioData', JSON.stringify(userJSONData))
     alert('Password changed successfully!');
-    window.location.href = '../web_pages/signin.html';
+    window.location.href = '/signin.html';
   }
 
 }

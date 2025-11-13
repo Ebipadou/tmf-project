@@ -21,7 +21,7 @@ form.addEventListener('submit', (e) => {
     // ✅ Redirect after successful validation
     modal.style.display = 'flex';
     setTimeout(() => {
-      window.location.href = "../web_pages/signin.html";
+      window.location.href = "/signin.html";
     }, 3000);
   }
 });
