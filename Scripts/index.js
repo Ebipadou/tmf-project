@@ -46,7 +46,7 @@ function mainContentFunction() {
     mainContentContainer.style.backgroundSize = '290px 500px';
   }
   else if (circle3.classList.contains('enabled')) {
-    window.location.href = '/get-started.html'
+    window.location.href = '/signup-page.html';
   }
 });
 
